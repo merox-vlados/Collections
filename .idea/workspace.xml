@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ddcde66-4694-4703-83a6-f03e82e0d7d9" name="Changes" comment="">
+    <list default="true" id="8ddcde66-4694-4703-83a6-f03e82e0d7d9" name="Changes" comment="commit 13.04.2023">
+      <change afterPath="$PROJECT_DIR$/src/main/java/CarLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Car.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/CarArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CarArrayList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/CarList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CarList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/CarListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CarListTest.java" afterDir="false" />
@@ -47,14 +47,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -63,7 +64,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.CarListTest">
     <configuration name="CarListTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -87,8 +88,40 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="CarListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Collections.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CarListTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarListTest.whenElementRemovedByIndexThenSizeMustBeDecrease" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Collections.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CarListTest" />
+      <option name="METHOD_NAME" value="whenElementRemovedByIndexThenSizeMustBeDecrease" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarListTest.whenElementRemovedThenSizeMustBeDecrease" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Collections.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CarListTest" />
+      <option name="METHOD_NAME" value="whenElementRemovedThenSizeMustBeDecrease" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CarListTest" />
+        <item itemvalue="JUnit.CarListTest.whenElementRemovedThenSizeMustBeDecrease" />
+        <item itemvalue="JUnit.CarListTest.whenElementRemovedByIndexThenSizeMustBeDecrease" />
         <item itemvalue="Gradle.CarListTest" />
       </list>
     </recent_temporary>
@@ -102,6 +135,18 @@
       <option name="presentableId" value="Default" />
       <updated>1681304266967</updated>
     </task>
+    <task id="LOCAL-00001" summary="commit 13.04.2023">
+      <created>1681372432370</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681372432370</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit 13.04.2023" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit 13.04.2023" />
   </component>
 </project>
