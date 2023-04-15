@@ -4,11 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ddcde66-4694-4703-83a6-f03e82e0d7d9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/CarHashSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/CarSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CarSetTest.java" afterDir="false" />
+    <list default="true" id="8ddcde66-4694-4703-83a6-f03e82e0d7d9" name="Changes" comment="commit 14.04.2023">
+      <change afterPath="$PROJECT_DIR$/src/main/java/CarCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CarCollectionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CarArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CarArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CarHashSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CarHashSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CarLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CarLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CarLinkedListTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CarList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CarList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CarSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CarSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CarListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CarListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,14 +30,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Class" />
         <option value="Interface" />
         <option value="JUnit4 Test Class" />
-        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2OKLKdvJ33bbbSslkydUZk6cIM6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -42,14 +52,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": ""
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -58,7 +68,42 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.CarCollectionTest">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Collections.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarCollectionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Collections.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CarCollectionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Collections.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CarListTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarListTest.whenListContainsSimilarObject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Collections.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CarListTest" />
+      <option name="METHOD_NAME" value="whenListContainsSimilarObject" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CarSetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Collections.test" />
       <option name="PACKAGE_NAME" value="" />
@@ -70,6 +115,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CarCollectionTest" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.CarListTest.whenListContainsSimilarObject" />
+        <item itemvalue="JUnit.CarListTest" />
         <item itemvalue="JUnit.CarSetTest" />
       </list>
     </recent_temporary>
@@ -83,6 +132,14 @@
       <option name="presentableId" value="Default" />
       <updated>1681304266967</updated>
     </task>
+    <task id="LOCAL-00001" summary="commit 14.04.2023">
+      <created>1681499607288</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681499607288</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -95,5 +152,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit 14.04.2023" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit 14.04.2023" />
   </component>
 </project>

@@ -84,4 +84,11 @@ public class CarListTest {
         Car carFromList = carList.get(100);
         assertEquals("BMW", carFromList.getBrand());
     }
+
+    @Test
+    public void whenListContainsSimilarObject() {
+        Car car = new Car("BMW", 1);
+        carList.add(car,100);
+        assertTrue(carList.contains(car));
+    }
 }
