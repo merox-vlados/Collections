@@ -4,18 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ddcde66-4694-4703-83a6-f03e82e0d7d9" name="Changes" comment="commit 14.04.2023">
-      <change afterPath="$PROJECT_DIR$/src/main/java/CarCollection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CarCollectionTest.java" afterDir="false" />
+    <list default="true" id="8ddcde66-4694-4703-83a6-f03e82e0d7d9" name="Changes" comment="commit 15.04.2023">
+      <change afterPath="$PROJECT_DIR$/src/main/java/CarQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CarQueueTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CarArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CarArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CarHashSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CarHashSet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/CarLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CarLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CarLinkedListTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CarList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CarList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CarSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CarSet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CarListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CarListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +62,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CarCollectionTest">
+  <component name="RunManager" selected="JUnit.CarQueueTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Collections.main" />
@@ -104,10 +98,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CarSetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CarQueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Collections.test" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CarSetTest" />
+      <option name="MAIN_CLASS_NAME" value="CarQueueTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -115,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CarQueueTest" />
         <item itemvalue="JUnit.CarCollectionTest" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.CarListTest.whenListContainsSimilarObject" />
         <item itemvalue="JUnit.CarListTest" />
-        <item itemvalue="JUnit.CarSetTest" />
       </list>
     </recent_temporary>
   </component>
@@ -139,7 +133,21 @@
       <option name="project" value="LOCAL" />
       <updated>1681499607288</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="commit 15.04.2023">
+      <created>1681584955464</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1681584955464</updated>
+    </task>
+    <task id="LOCAL-00003" summary="commit 15.04.2023">
+      <created>1681584969696</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1681584969696</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -155,6 +163,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit 14.04.2023" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit 14.04.2023" />
+    <MESSAGE value="commit 15.04.2023" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit 15.04.2023" />
   </component>
 </project>

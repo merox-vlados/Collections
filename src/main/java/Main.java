@@ -2,13 +2,12 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        CarCollection cars = new CarArrayList();
-        for(int i = 0; i < 10; i++) {
-            cars.add(new Car("Brand" + i, i));
-        }
-        for(Car car : cars) {
-            System.out.println(car.getBrand() + " " + car.getNumber());
-        }
+//        HashMap<CarOwner, Car> map = new HashMap<CarOwner, Car>();
+//        CarOwner key = new CarOwner(1, "Name", "LastName");
+//        map.put(key, new Car("Brand1",1));
+//        key.setId(8);
+//        Car car = map.get(key);
+//        System.out.println(car.getBrand());
 
     }
 }
