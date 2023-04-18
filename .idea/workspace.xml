@@ -4,16 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ddcde66-4694-4703-83a6-f03e82e0d7d9" name="Changes" comment="commit 17.04.2023">
-      <change afterPath="$PROJECT_DIR$/src/main/java/CarHashMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/CarMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/CarOwner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TreeSetTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CarMapTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_14_04_2023_20_38__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_14_04_2023_20_38__Changes_.xml" afterDir="false" />
+    <list default="true" id="8ddcde66-4694-4703-83a6-f03e82e0d7d9" name="Changes" comment="commit 14.04.2023">
+      <change afterPath="$PROJECT_DIR$/src/main/java/CarCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CarCollectionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CarArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CarArrayList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/CarHashSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CarHashSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CarLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CarLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CarLinkedListTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CarList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CarList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CarSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CarSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CarListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CarListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,22 +27,12 @@
       <ProjectState />
     </projectState>
   </component>
-  <component name="ExternalProjectsManager">
-    <system id="GRADLE">
-      <state>
-        <task path="$PROJECT_DIR$">
-          <activation />
-        </task>
-        <projects_view />
-      </state>
-    </system>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Class" />
         <option value="Interface" />
         <option value="JUnit4 Test Class" />
-        <option value="Class" />
       </list>
     </option>
   </component>
@@ -64,10 +56,8 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -78,57 +68,58 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CarMapTest">
-    <configuration name="TreeSetTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TreeSetTest" />
+  <component name="RunManager" selected="JUnit.CarCollectionTest">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Collections.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeSetTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TreeSetTest" />
-      <module name="Collections.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CarMapTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CarCollectionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Collections.test" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CarMapTest" />
+      <option name="MAIN_CLASS_NAME" value="CarCollectionTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CarMapTest.countOfKeysMustBeEqualsToCountOfValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CarListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Collections.test" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CarMapTest" />
-      <option name="METHOD_NAME" value="countOfKeysMustBeEqualsToCountOfValues" />
+      <option name="MAIN_CLASS_NAME" value="CarListTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarListTest.whenListContainsSimilarObject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Collections.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CarListTest" />
+      <option name="METHOD_NAME" value="whenListContainsSimilarObject" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CarMapTest.whenPut100ElementsThenSizeBecome100" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CarSetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Collections.test" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CarMapTest" />
-      <option name="METHOD_NAME" value="whenPut100ElementsThenSizeBecome100" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="CarSetTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CarMapTest" />
-        <item itemvalue="JUnit.CarMapTest.whenPut100ElementsThenSizeBecome100" />
-        <item itemvalue="JUnit.CarMapTest.countOfKeysMustBeEqualsToCountOfValues" />
-        <item itemvalue="Application.TreeSetTest (1)" />
-        <item itemvalue="Application.TreeSetTest" />
+        <item itemvalue="JUnit.CarCollectionTest" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.CarListTest.whenListContainsSimilarObject" />
+        <item itemvalue="JUnit.CarListTest" />
+        <item itemvalue="JUnit.CarSetTest" />
       </list>
     </recent_temporary>
   </component>
@@ -141,26 +132,29 @@
       <option name="presentableId" value="Default" />
       <updated>1681304266967</updated>
     </task>
-    <task id="LOCAL-00001" summary="commit 13.04.2023">
-      <created>1681372432370</created>
+    <task id="LOCAL-00001" summary="commit 14.04.2023">
+      <created>1681499607288</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1681372432370</updated>
+      <updated>1681499607288</updated>
     </task>
-    <task id="LOCAL-00002" summary="commit 13.04.2023">
-      <created>1681395531360</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1681395531360</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="commit 13.04.2023" />
-    <MESSAGE value="commit 17.04.2023" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit 17.04.2023" />
+    <MESSAGE value="commit 14.04.2023" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit 14.04.2023" />
   </component>
 </project>
