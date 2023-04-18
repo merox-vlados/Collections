@@ -4,18 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ddcde66-4694-4703-83a6-f03e82e0d7d9" name="Changes" comment="commit 14.04.2023">
-      <change afterPath="$PROJECT_DIR$/src/main/java/CarCollection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CarCollectionTest.java" afterDir="false" />
+    <list default="true" id="8ddcde66-4694-4703-83a6-f03e82e0d7d9" name="Changes" comment="commit 18.04.2023">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CarArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CarArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CarHashSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CarHashSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CarLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CarLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CarLinkedListTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CarList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CarList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CarSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CarSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CarListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CarListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CarCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CarCollection.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,6 +146,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit 14.04.2023" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit 14.04.2023" />
+    <MESSAGE value="commit 18.04.2023" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit 18.04.2023" />
   </component>
 </project>
